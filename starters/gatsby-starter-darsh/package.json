@@ -5,12 +5,16 @@
   "private": true,
   "author": "Eric Howey <eric@erichowey.dev>",
   "dependencies": {
+    "classnames": "^2.2.6",
     "gatsby": "^2.27.0",
+    "gatsby-plugin-sass": "^3.2.0",
     "gatsby-theme-darsh": "^0.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sass": "^1.32.7"
   },
   "devDependencies": {
+    "gatsby-plugin-root-import": "^2.0.6",
     "prettier": "^2.2.0"
   },
   "keywords": [
@@ -23,7 +27,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "clean": "gatsby clean",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format": "prettier --write src/**/*.js",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
