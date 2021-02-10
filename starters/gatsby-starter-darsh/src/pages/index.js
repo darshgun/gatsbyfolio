@@ -4,7 +4,7 @@ const IndexPage = () => {
   return (
     <Fragment>
       <header>
-        <h1>Gatsby Theme Empty</h1>
+        <h1>Gatsby Theme darsh</h1>
       </header>
       <main>
         <p>Create something amazing!</p>

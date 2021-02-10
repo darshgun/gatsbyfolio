@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Gatsby Theme Empty" src="https://www.erichowey.dev/images/empty-logo.png" width="400" />
+    <img alt="Gatsby Theme darsh" src="https://www.erichowey.dev/images/darsh-logo.png" width="400" />
 </p>
 
 <h3 align="center">A template for a <i>lightning fast</i> setup of a Gatsby themes monorepo</h3>
@@ -18,17 +18,17 @@ The following tools should already be installed in your local dev environment fo
 
 ## Lightning start
 
-This might look like a lot of steps - but I just broke it down into detailed steps. The two key parts are creating a new repo using this template and then running a find and replace in your code editor of choice replacing `empty` with your theme name of choice.
+This might look like a lot of steps - but I just broke it down into detailed steps. The two key parts are creating a new repo using this template and then running a find and replace in your code editor of choice replacing `darsh` with your theme name of choice.
 
 1. Click `Use This Template` and create a new repo for your project from this template.
 
 1. `git clone` your project and open it in your code editor of choice.
 
-1. Find and replace `empty` with your theme's new name. For example if your theme name was going to be `gatsby-theme-kickoff` you would find and replace `empty` -> `kickoff`.
+1. Find and replace `darsh` with your theme's new name. For example if your theme name was going to be `gatsby-theme-kickoff` you would find and replace `darsh` -> `kickoff`.
 
 1. Update fields such as author, description, etc in the `package.json` for the theme and starter. The package name should already be updated via the previous step.
 
-1. Update the folder names for the theme and starter. For example; from `gatsby-starter-empty` and `gatsby-theme-empty` to `gatsby-starter-kickoff` and `gatsby-theme-kickoff`.
+1. Update the folder names for the theme and starter. For example; from `gatsby-starter-darsh` and `gatsby-theme-darsh` to `gatsby-starter-kickoff` and `gatsby-theme-kickoff`.
 
 1. Run `yarn install` to setup yarn workspaces
 
@@ -69,7 +69,7 @@ The syntax for yarn workspaces is long and the following scripts are setup to ma
 
 ## FAQ
 
-1. **Where is the demo?:** There is no demo. There is nothing to show really. It is a blank page with a title, a couple of lines of text and that is it. Nothing fancy to look at but an "empty" page where you can create something amazing! My hope was that there would be a _very_ minimal amount of work for you to undo before getting going.
+1. **Where is the demo?:** There is no demo. There is nothing to show really. It is a blank page with a title, a couple of lines of text and that is it. Nothing fancy to look at but an "darsh" page where you can create something amazing! My hope was that there would be a _very_ minimal amount of work for you to undo before getting going.
 
 1. **Why are the tests failing in this repo?:** They are failing in this repo because it is a template and does not include a yarn.lock file. If you follow the instructions above your tests will start passing once you commit to GitHub because you will generate a new a yarn.lock file when running the install process.
 

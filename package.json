@@ -4,7 +4,7 @@
     "starters/*",
     "themes/*"
   ],
-  "name": "gatsby-theme-empty-root",
+  "name": "gatsby-theme-darsh-root",
   "devDependencies": {
     "@testing-library/cypress": "^7.0.1",
     "axe-core": "^4.1.0",
@@ -15,11 +15,11 @@
     "start-server-and-test": "^1.11.6"
   },
   "scripts": {
-    "develop:empty": "yarn workspace gatsby-starter-empty develop",
-    "build:empty": "yarn workspace gatsby-starter-empty build",
-    "serve:empty": "yarn workspace gatsby-starter-empty serve",
-    "clean:empty": "yarn workspace gatsby-starter-empty clean",
-    "test:empty": "start-server-and-test develop:empty http://localhost:8000 cy:open",
+    "develop:darsh": "yarn workspace gatsby-starter-darsh develop",
+    "build:darsh": "yarn workspace gatsby-starter-darsh build",
+    "serve:darsh": "yarn workspace gatsby-starter-darsh serve",
+    "clean:darsh": "yarn workspace gatsby-starter-darsh clean",
+    "test:darsh": "start-server-and-test develop:darsh http://localhost:8000 cy:open",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   }

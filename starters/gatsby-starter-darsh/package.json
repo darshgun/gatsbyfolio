@@ -1,29 +1,28 @@
 {
-  "name": "gatsby-theme-empty",
-  "description": "A empty theme intended as a 0 opinion quick start for a Gatsby project.",
+  "name": "gatsby-starter-darsh",
+  "description": "Gatsby starter for gatsby-theme-monorepo-tutorial",
   "version": "0.0.0",
+  "private": true,
   "author": "Eric Howey <eric@erichowey.dev>",
-  "devDependencies": {
+  "dependencies": {
     "gatsby": "^2.27.0",
-    "prettier": "^2.2.0",
+    "gatsby-theme-darsh": "^0.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "peerDependencies": {
-    "gatsby": "^2.27.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+  "devDependencies": {
+    "prettier": "^2.2.0"
   },
   "keywords": [
     "gatsby",
-    "gatsby-theme",
+    "gatsby-starter",
     "gatsby-plugin"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "clean": "gatsby clean",
     "develop": "gatsby develop",
+    "clean": "gatsby clean",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -31,10 +30,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ehowey/gatsby-theme-empty"
+    "url": "https://github.com/ehowey/gatsby-starter-monorepo-tutorial"
   },
   "bugs": {
-    "url": "https://github.com/ehowey/gatsby-theme-empty/issues"
-  },
-  "gitHead": "c3d26274bae4ba834b9974c882597aca71710334"
+    "url": "https://github.com/ehowey/gatsby-starter-monorepo-tutorial/issues"
+  }
 }

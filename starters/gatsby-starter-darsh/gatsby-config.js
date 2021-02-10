@@ -7,7 +7,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-theme-empty`,
+      resolve: `gatsby-theme-darsh`,
       options: {},
     },
   ],
