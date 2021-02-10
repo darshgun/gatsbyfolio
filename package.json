@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "workspaces": [
+    "starters/*",
+    "themes/*"
+  ],
+  "name": "gatsby-theme-empty-root",
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.1",
+    "axe-core": "^4.1.0",
+    "cypress": "^5.6.0",
+    "cypress-axe": "^0.10.0",
+    "gatsby-cypress": "^0.6.0",
+    "lerna": "^3.22.1",
+    "start-server-and-test": "^1.11.6"
+  },
+  "scripts": {
+    "develop:empty": "yarn workspace gatsby-starter-empty develop",
+    "build:empty": "yarn workspace gatsby-starter-empty build",
+    "serve:empty": "yarn workspace gatsby-starter-empty serve",
+    "clean:empty": "yarn workspace gatsby-starter-empty clean",
+    "test:empty": "start-server-and-test develop:empty http://localhost:8000 cy:open",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  }
+}

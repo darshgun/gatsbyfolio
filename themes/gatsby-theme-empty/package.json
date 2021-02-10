@@ -1,0 +1,40 @@
+{
+  "name": "gatsby-theme-empty",
+  "description": "A empty theme intended as a 0 opinion quick start for a Gatsby project.",
+  "version": "0.0.0",
+  "author": "Eric Howey <eric@erichowey.dev>",
+  "devDependencies": {
+    "gatsby": "^2.27.0",
+    "prettier": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.27.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ehowey/gatsby-theme-empty"
+  },
+  "bugs": {
+    "url": "https://github.com/ehowey/gatsby-theme-empty/issues"
+  },
+  "gitHead": "c3d26274bae4ba834b9974c882597aca71710334"
+}
