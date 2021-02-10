@@ -1,0 +1,121 @@
+/**
+ * This file is the global CSS that must be included by all applications that consume Gecko
+ */
+@import "./common";
+@import "./layout/utilities/utilities";
+@import "./layout/grid/grid";
+
+/**
+  * Font import
+  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+$default-browser-font-size: 16px;
+$base-font-size: 10px;
+
+:root {
+  --primary-20: #081b5f;
+  --primary-40: #0e2fa6;
+  --primary-base: #1443ed;
+  --primary-60: #8aa1f6;
+  --primary-80: #f7fafc;
+
+  --link-base: #ffffff;
+
+  --foreground-base: #ffffff;
+  --background-base: #1a202c;
+}
+
+.light-theme {
+  --primary-80: #081b5f;
+  --primary-60: #0e2fa6;
+  --primary-base: #1443ed;
+  --primary-40: #8aa1f6;
+  --primary-20: #f7fafc;
+
+  --link-base: #000000;
+
+  --foreground-base: #000000;
+  --background-base: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  @include text-style-body;
+}
+
+html,
+body,
+button {
+  font-family: font-family();
+}
+
+html {
+  position: relative;
+  font-size: ($base-font-size / $default-browser-font-size) * 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: color("background");
+  color: color("foreground");
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+input {
+  &:focus {
+    outline: none;
+  }
+}
+
+::-moz-selection {
+  background: color("foreground");
+  color: color("background");
+}
+::selection {
+  background: color("foreground");
+  color: color("background");
+}
